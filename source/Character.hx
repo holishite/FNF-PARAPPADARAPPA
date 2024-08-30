@@ -152,7 +152,7 @@ class Character extends FlxSprite
 
 			case 'FAGGOTSUNNYNIGGABALLS':
 				// GIRLFRIEND CODE
-				tex = Paths.getSparrowAtlas('characters/GF_assets', 'shared');
+				tex = Paths.getSparrowAtlas('characters/Sunny', 'shared');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -320,7 +320,7 @@ class Character extends FlxSprite
 				flipX = true;
 
 			case 'ParappaNIGGA':
-				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/Parappa', 'shared');
 				frames = tex;
 				animation.addByPrefix('idle', 'Parappa idle dance', 24, false);
 				animation.addByPrefix('worried', 'Parappa idle worried', 24, false);
