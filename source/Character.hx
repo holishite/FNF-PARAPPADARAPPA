@@ -299,13 +299,13 @@ class Character extends FlxSprite
 
 				loadOffsetFile("monster-christmas");
 				playAnim('idle');
-			case 'pico':
-				tex = Paths.getSparrowAtlas('characters/Pico_FNF_assetss', 'shared');
+			case 'masternigga':
+				tex = Paths.getSparrowAtlas('characters/Onion', 'shared');
 				frames = tex;
-				animation.addByPrefix('idle', "Pico Idle Dance", 24);
-				animation.addByPrefix('singUP', 'pico Up note0', 24, false);
-				animation.addByPrefix('singDOWN', 'Pico Down Note0', 24, false);
-				animation.addByPrefix('singLEFT', 'Pico Note Right0', 24, false);
+				animation.addByPrefix('idle', "Onion Idle", 24);
+				animation.addByPrefix('singUP', 'Onion Up', 24, false);
+				animation.addByPrefix('singDOWN', 'Onion Down', 24, false);
+				animation.addByPrefix('singLEFT', 'Onion Right', 24, false);
 				animation.addByPrefix('singRIGHT', 'Pico NOTE LEFT0', 24, false);
 				animation.addByPrefix('singRIGHTmiss', 'Pico NOTE LEFT miss', 24, false);
 				animation.addByPrefix('singLEFTmiss', 'Pico Note Right Miss', 24, false);
